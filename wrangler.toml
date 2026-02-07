@@ -1,8 +1,0 @@
-name = "urwaiter-net"
-compatibility_date = "2026-02-07"
-
-[build]
-command = ""
-
-[site]
-bucket = "./dist"
