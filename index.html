@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <base href="/" />
+
+    <!-- Basic -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>
+      Your Waiter – Online Menu for Restaurants, Bars & Cafes in Koh Tao
+    </title>
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Your Waiter provides fast, contactless online menus for restaurants, bars, and cafes in Koh Tao. Let customers browse food easily in their own language."
+    />
+    <meta
+      name="keywords"
+      content="online menu, restaurant menu, Koh Tao restaurants, contactless menu, bar menu, cafe menu"
+    />
+    <meta name="author" content="Your Waiter" />
+    <link rel="canonical" href="https://urwaiter.net" />
+
+    <!-- Open Graph (Facebook / LINE) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://urwaiter.net" />
+    <meta
+      property="og:title"
+      content="Your Waiter – Online Menu for Restaurants in Koh Tao"
+    />
+    <meta
+      property="og:description"
+      content="Simple online menus that improve customer experience and make ordering easier."
+    />
+    <meta property="og:image" content="https://urwaiter.net/og.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://urwaiter.net" />
+    <meta
+      name="twitter:title"
+      content="Your Waiter – Online Menu for Koh Tao Restaurants"
+    />
+    <meta
+      name="twitter:description"
+      content="Fast and simple online menus for restaurants, bars, and cafes."
+    />
+    <meta name="twitter:image" content="https://urwaiter.net/og.png" />
+
+    <!-- PWA -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Your Waiter" />
+    <meta name="theme-color" content="#ede1e2" />
+
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Your Waiter",
+        "url": "https://urwaiter.net",
+        "areaServed": {
+          "@type": "Place",
+          "name": "Koh Tao, Thailand"
+        },
+        "serviceType": "Online Menu"
+      }
+    </script>
+
+    <!-- Loader Style -->
+    <style>
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f8f9fa;
+      }
+
+      .loader {
+        width: fit-content;
+        font-weight: bold;
+        font-family: monospace;
+        font-size: 30px;
+        background: radial-gradient(circle closest-side, #000 94%, #0000)
+          right/calc(200% - 1em) 100%;
+        animation: l24 1s infinite alternate linear;
+      }
+
+      .loader::before {
+        content: "Loading...";
+        line-height: 1em;
+        color: #0000;
+        background: inherit;
+        background-image: radial-gradient(circle closest-side, #fff 94%, #000);
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
+
+      @keyframes l24 {
+        to {
+          background-position: left;
+        }
+      }
+
+      .seo-content {
+        position: absolute;
+        left: -9999px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Hidden SEO Content -->
+    <div class="seo-content">
+      <h1>Your Waiter – Online Menu</h1>
+      <p>Online menu solution for restaurants, bars, and cafes in Koh Tao.</p>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loading_indicator" class="container">
+      <div class="loader" aria-label="Loading"></div>
+    </div>
+
+    <script>
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          document.getElementById("loading_indicator")?.remove();
+        }, 15000);
+      });
+    </script>
+
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyBMSPg8u_KTJbqIRo5DgyZYPFGl56Tyvk4",
+        authDomain: "yourwaiter-3baed.firebaseapp.com",
+        projectId: "yourwaiter-3baed",
+        appId: "1:102300805677:web:74bd98cb255a2a5ddbe6a4",
+        measurementId: "G-EPXCVYWT0Y",
+      };
+
+      const app = initializeApp(firebaseConfig);
+      getAnalytics(app);
+    </script>
+
+    <!-- Flutter Web -->
+    <script src="flutter.js" defer></script>
+    <script src="flutter_bootstrap.js" async></script>
+  </body>
+</html>
