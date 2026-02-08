@@ -45,6 +45,8 @@ Your Waiter is currently in **Beta**.
 - Free for restaurants to test
 - Manual setup supported
 - Feedback-driven improvements
+- Setup menu 500bhat
+- 300bhat per months
 
 This phase is focused on real-world testing with local restaurants.
 
