@@ -20,21 +20,21 @@ It focuses on simplicity, speed, and reducing confusion — especially in places
 
 ### For Customers
 
-* View menu online (no app install)
-* Clean and easy-to-read menu layout
-* Search food items quickly
-* Save favorite items
-* Create a list before ordering
-* Show saved list to the waiter
-* Useful for dine-in, pickup, or delivery
+- View menu online (no app install)
+- Clean and easy-to-read menu layout
+- Search food items quickly
+- Save favorite items
+- Create a list before ordering
+- Show saved list to the waiter
+- Useful for dine-in, pickup, or delivery
 
 ### For Restaurants
 
-* Modern online menu experience
-* Faster and clearer ordering
-* Reduced language misunderstandings
-* No printing or reprinting menus
-* Easy to update menu content
+- Modern online menu experience
+- Faster and clearer ordering
+- Reduced language misunderstandings
+- No printing or reprinting menus
+- Easy to update menu content
 
 ---
 
@@ -42,10 +42,9 @@ It focuses on simplicity, speed, and reducing confusion — especially in places
 
 Your Waiter is currently in **Beta**.
 
-* Free for restaurants to test
-* Manual setup supported
-* Feedback-driven improvements
-* No monthly fee during beta
+- Free for restaurants to test
+- Manual setup supported
+- Feedback-driven improvements
 
 This phase is focused on real-world testing with local restaurants.
 
@@ -53,10 +52,10 @@ This phase is focused on real-world testing with local restaurants.
 
 ## 🛠️ Technology
 
-* Flutter Web
-* Progressive Web App (PWA)
-* Firebase Analytics (anonymous usage only)
-* Local caching for fast performance
+- Flutter Web
+- Progressive Web App (PWA)
+- Firebase Analytics (anonymous usage only)
+- Local caching for fast performance
 
 No personal user data is collected.
 
@@ -64,11 +63,11 @@ No personal user data is collected.
 
 ## 🌍 Target Users
 
-* Restaurants
-* Bars
-* Cafes
-* Beach clubs
-* Food & drink venues
+- Restaurants
+- Bars
+- Cafes
+- Beach clubs
+- Food & drink venues
 
 Especially suitable for tourist areas and multilingual environments.
 
@@ -82,9 +81,9 @@ This project is created and maintained by a solo developer who works as a waiter
 
 ## 📩 Contact & Demo
 
-* Website: [https://urwaiter.net](https://urwaiter.net)
-* Demo menus available on request
-* Restaurant owners are welcome to test and give feedback
+- Website: [https://urwaiter.net](https://urwaiter.net)
+- Demo menus available on request
+- Restaurant owners are welcome to test and give feedback
 
 ---
 
