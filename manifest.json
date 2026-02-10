@@ -1,22 +1,17 @@
 {
-  "name": "Your Waiter - Online  Menu",
+  "name": "Your Waiter - Online Menu",
   "short_name": "Your Waiter",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ede1e2",
-  "description": "Easy-to-use Online  menus for restaurants, bars, and cafes in Koh Tao.Language support: English, Thai, Myanmar, German, Chinese, Hebrew, Spanish, Korean.",
+  "description": "Easy-to-use online menus for restaurants, bars, and cafes in Koh Tao. Language support: English, Thai, Myanmar, German, Chinese, Hebrew, Spanish, Korean.",
   "orientation": "portrait-primary",
   "categories": [
     "food",
     "business",
-    "productivity",
-    "qrmenu",
-    "restaurant",
-    "digitalmenu",
-    "contactlessmenu",
-    "menu",
-    "waiter"
+    "productivity"
   ],
   "prefer_related_applications": false,
   "icons": [
