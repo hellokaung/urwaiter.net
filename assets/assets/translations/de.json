@@ -101,5 +101,14 @@
   "try_again": "Erneut versuchen",
   "use_app_back_button": "Bitte nutzen Sie den Zurück-Button der App",
   "your_cart": "Ihr Warenkorb",
-  "your_cart_empty": "Ihr Warenkorb ist leer"
+  "your_cart_empty": "Ihr Warenkorb ist leer",
+  "invalid_arguments": "Ungültige Argumente",
+  "description_not_available": "Beschreibung nicht verfügbar.",
+  "error_prefix": "Fehler: {}",
+  "oops": "Hoppla!",
+  "page_not_found": "404 — Seite nicht gefunden",
+  "splash_loading": "Frische Gerichte und Getränke werden geladen...",
+  "splash_preparing": "Wir bereiten Ihren Tisch vor",
+  "splash_today_menu": "Heutiges Menü",
+  "splash_version": "Version {} • {}"
 }

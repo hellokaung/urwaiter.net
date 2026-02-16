@@ -1,8 +1,16 @@
 {
   "name": "Your Waiter - Online Menu",
   "short_name": "Your Waiter",
+  "id": "/",
+  "lang": "en",
+  "dir": "ltr",
   "start_url": "/",
   "scope": "/",
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ede1e2",
@@ -38,6 +46,15 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "og.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Your Waiter online menu preview"
     }
   ]
 }

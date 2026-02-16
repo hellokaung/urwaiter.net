@@ -101,5 +101,15 @@
   "try_again": "ထပ်ကြိုးစားပါ",
   "use_app_back_button": "ကျေးဇူးပြု၍ အက်ပ်ရှိ နောက်ပြန်ခလုတ်ကို သုံးပါ",
   "your_cart": "သင်၏ဈေးဝယ်လှည်း",
-  "your_cart_empty": "ဈေးဝယ်လှည်း အလွတ်ဖြစ်နေသည်"
+  "your_cart_empty": "ဈေးဝယ်လှည်း အလွတ်ဖြစ်နေသည်",
+  "invalid_arguments": "မမှန်ကန်သော အချက်အလက်များ",
+  "food_detail_no_broswer": "No browser found",
+  "description_not_available": "ဖော်ပြချက် မရှိပါ။",
+  "error_prefix": "အမှား: {}",
+  "oops": "အိုဟုတ်!",
+  "page_not_found": "404 — စာမျက်နှာ မတွေ့ပါ",
+  "splash_loading": "လတ်ဆတ်သောဟင်းလျာများနှင့် အချိုရည်များကို တင်နေသည်...",
+  "splash_preparing": "သင့်စားပွဲကို ပြင်ဆင်နေပါသည်",
+  "splash_today_menu": "ယနေ့၏ မီနူး",
+  "splash_version": "ဗားရှင်း {} • {}"
 }

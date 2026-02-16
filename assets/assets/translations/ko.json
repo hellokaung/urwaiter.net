@@ -101,5 +101,14 @@
   "try_again": "다시 시도",
   "use_app_back_button": "앱의 뒤로가기 버튼을 사용하세요",
   "your_cart": "장바구니",
-  "your_cart_empty": "장바구니가 비어 있습니다"
+  "your_cart_empty": "장바구니가 비어 있습니다",
+  "invalid_arguments": "잘못된 인자",
+  "description_not_available": "설명이 없습니다.",
+  "error_prefix": "오류: {}",
+  "oops": "앗!",
+  "page_not_found": "404 — 페이지를 찾을 수 없습니다",
+  "splash_loading": "신선한 요리와 음료를 불러오는 중...",
+  "splash_preparing": "테이블을 준비 중입니다",
+  "splash_today_menu": "오늘의 메뉴",
+  "splash_version": "버전 {} • {}"
 }

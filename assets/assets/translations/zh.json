@@ -101,5 +101,14 @@
   "try_again": "再试一次",
   "use_app_back_button": "请使用应用内的返回按钮",
   "your_cart": "您的购物车",
-  "your_cart_empty": "您的购物车是空的"
+  "your_cart_empty": "您的购物车是空的",
+  "invalid_arguments": "参数无效",
+  "description_not_available": "暂无描述。",
+  "error_prefix": "错误：{}",
+  "oops": "哎呀！",
+  "page_not_found": "404 — 页面未找到",
+  "splash_loading": "正在加载新鲜菜品和饮品...",
+  "splash_preparing": "正在准备您的餐桌",
+  "splash_today_menu": "今日菜单",
+  "splash_version": "版本 {} • {}"
 }

@@ -101,5 +101,14 @@
   "try_again": "Intentar de nuevo",
   "use_app_back_button": "Por favor usa el botón de atrás de la app",
   "your_cart": "Tu carrito",
-  "your_cart_empty": "Tu carrito está vacío"
+  "your_cart_empty": "Tu carrito está vacío",
+  "invalid_arguments": "Argumentos no válidos",
+  "description_not_available": "Descripción no disponible.",
+  "error_prefix": "Error: {}",
+  "oops": "¡Ups!",
+  "page_not_found": "404 — Página no encontrada",
+  "splash_loading": "Cargando platos y bebidas frescos...",
+  "splash_preparing": "Preparando tu mesa",
+  "splash_today_menu": "Menú de hoy",
+  "splash_version": "Versión {} • {}"
 }

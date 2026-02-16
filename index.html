@@ -7,6 +7,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta
+      name="googlebot"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
 
     <title>
       Your Waiter – Online Menu for Restaurants, Bars & Cafes in Koh Tao
@@ -22,11 +31,15 @@
       content="online menu, restaurant menu, Koh Tao restaurants, contactless menu, bar menu, cafe menu"
     />
     <meta name="author" content="Your Waiter" />
+    <meta name="application-name" content="Your Waiter" />
     <link rel="canonical" href="https://urwaiter.net" />
+    <link rel="alternate" hreflang="x-default" href="https://urwaiter.net" />
 
     <!-- Open Graph (Facebook / LINE) -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://urwaiter.net" />
+    <meta property="og:site_name" content="Your Waiter" />
+    <meta property="og:locale" content="en_US" />
     <meta
       property="og:title"
       content="Your Waiter – Online Menu for Restaurants in Koh Tao"
@@ -36,6 +49,9 @@
       content="Simple online menus that improve customer experience and make ordering easier."
     />
     <meta property="og:image" content="https://urwaiter.net/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Your Waiter online menu preview" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -49,17 +65,21 @@
       content="Fast and simple online menus for restaurants, bars, and cafes."
     />
     <meta name="twitter:image" content="https://urwaiter.net/og.png" />
+    <meta name="twitter:image:alt" content="Your Waiter online menu preview" />
 
     <!-- PWA -->
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Your Waiter" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="format-detection" content="telephone=no" />
     <meta name="theme-color" content="#ede1e2" />
 
-    <link rel="manifest" href="manifest.json" />
-    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
 
@@ -67,14 +87,29 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Your Waiter",
-        "url": "https://urwaiter.net",
-        "areaServed": {
-          "@type": "Place",
-          "name": "Koh Tao, Thailand"
-        },
-        "serviceType": "Online Menu"
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "Your Waiter",
+            "url": "https://urwaiter.net",
+            "logo": "https://urwaiter.net/android-chrome-512x512.png"
+          },
+          {
+            "@type": "WebSite",
+            "name": "Your Waiter",
+            "url": "https://urwaiter.net"
+          },
+          {
+            "@type": "Service",
+            "name": "Your Waiter",
+            "url": "https://urwaiter.net",
+            "areaServed": {
+              "@type": "Place",
+              "name": "Koh Tao, Thailand"
+            },
+            "serviceType": "Online Menu"
+          }
+        ]
       }
     </script>
 
@@ -114,25 +149,18 @@
           background-position: left;
         }
       }
-
-      .seo-content {
-        position: absolute;
-        left: -9999px;
-      }
     </style>
   </head>
 
   <body>
-    <!-- Hidden SEO Content -->
-    <div class="seo-content">
-      <h1>Your Waiter – Online Menu</h1>
-      <p>Online menu solution for restaurants, bars, and cafes in Koh Tao.</p>
-    </div>
-
     <!-- Loading Screen -->
     <div id="loading_indicator" class="container">
       <div class="loader" aria-label="Loading"></div>
     </div>
+
+    <noscript>
+      Your Waiter needs JavaScript enabled to load the interactive online menu.
+    </noscript>
 
     <script>
       window.addEventListener("load", () => {
@@ -158,8 +186,6 @@
       getAnalytics(app);
     </script>
 
-    <!-- Flutter Web -->
-    <script src="flutter.js" defer></script>
     <script src="flutter_bootstrap.js" async></script>
   </body>
 </html>

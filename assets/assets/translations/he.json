@@ -101,5 +101,14 @@
   "try_again": "נסה שוב",
   "use_app_back_button": "נא להשתמש בכפתור החזרה של האפליקציה",
   "your_cart": "הסל שלך",
-  "your_cart_empty": "הסל שלך ריק"
+  "your_cart_empty": "הסל שלך ריק",
+  "invalid_arguments": "ארגומנטים לא תקינים",
+  "description_not_available": "התיאור אינו זמין.",
+  "error_prefix": "שגיאה: {}",
+  "oops": "אופס!",
+  "page_not_found": "404 — הדף לא נמצא",
+  "splash_loading": "טוענים מנות ומשקאות טריים...",
+  "splash_preparing": "מכינים את השולחן שלך",
+  "splash_today_menu": "תפריט היום",
+  "splash_version": "גרסה {} • {}"
 }

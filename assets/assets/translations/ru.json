@@ -101,5 +101,14 @@
   "try_again": "Попробовать снова",
   "use_app_back_button": "Используйте кнопку «Назад» в приложении",
   "your_cart": "Ваша корзина",
-  "your_cart_empty": "Ваша корзина пуста"
+  "your_cart_empty": "Ваша корзина пуста",
+  "invalid_arguments": "Неверные аргументы",
+  "description_not_available": "Описание недоступно.",
+  "error_prefix": "Ошибка: {}",
+  "oops": "Ой!",
+  "page_not_found": "404 — Страница не найдена",
+  "splash_loading": "Загружаем свежие блюда и напитки...",
+  "splash_preparing": "Готовим ваш стол",
+  "splash_today_menu": "Меню на сегодня",
+  "splash_version": "Версия {} • {}"
 }

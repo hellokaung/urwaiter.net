@@ -101,5 +101,14 @@
   "try_again": "ลองอีกครั้ง",
   "use_app_back_button": "กรุณาใช้ปุ่มย้อนกลับของแอป",
   "your_cart": "รถเข็นของคุณ",
-  "your_cart_empty": "รถเข็นของคุณว่างเปล่า"
+  "your_cart_empty": "รถเข็นของคุณว่างเปล่า",
+  "invalid_arguments": "อาร์กิวเมนต์ไม่ถูกต้อง",
+  "description_not_available": "ไม่มีคำอธิบาย",
+  "error_prefix": "ข้อผิดพลาด: {}",
+  "oops": "อ๊ะ!",
+  "page_not_found": "404 — ไม่พบหน้า",
+  "splash_loading": "กำลังโหลดอาหารและเครื่องดื่มสด...",
+  "splash_preparing": "กำลังเตรียมโต๊ะของคุณ",
+  "splash_today_menu": "เมนูวันนี้",
+  "splash_version": "เวอร์ชัน {} • {}"
 }
