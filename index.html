@@ -9,6 +9,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.gstatic.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://www.gstatic.com https://www.google-analytics.com https://analytics.google.com https://firestore.googleapis.com https://www.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebaseinstallations.googleapis.com https://*.firebaseio.com; worker-src 'self' blob:; manifest-src 'self'; upgrade-insecure-requests; block-all-mixed-content"
+    />
+    <meta
+      http-equiv="Permissions-Policy"
+      content="accelerometer=(), autoplay=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+    />
+    <meta
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     />
@@ -27,12 +35,25 @@
       content="Your Waiter provides fast, contactless online menus for restaurants, bars, and cafes in Koh Tao. Let customers browse food easily in their own language."
     />
     <meta
+      name="description"
+      lang="th"
+      content="Your Waiter มีเมนูออนไลน์แบบไร้การสัมผัสสำหรับร้านอาหาร บาร์ และคาเฟ่ในเกาะเต่า ให้ลูกค้าเลือกเมนูได้ง่ายในภาษาของตนเอง"
+    />
+    <meta
+      name="description"
+      lang="my"
+      content="Your Waiter သည် Koh Tao ရှိ စားသောက်ဆိုင်များ၊ ဘားများနှင့် ကဖေးများအတွက် မထိတွေ့ရသော အွန်လိုင်းမီနူးကို ပံ့ပိုးပေးပြီး ဖောက်သည်များကို မိမိဘာသာဖြင့် လွယ်ကူစွာ ကြည့်ရှုနိုင်စေသည်။"
+    />
+    <meta
       name="keywords"
       content="online menu, restaurant menu, Koh Tao restaurants, contactless menu, bar menu, cafe menu"
     />
     <meta name="author" content="Your Waiter" />
     <meta name="application-name" content="Your Waiter" />
     <link rel="canonical" href="https://urwaiter.net" />
+    <link rel="alternate" hreflang="en" href="https://urwaiter.net/?lang=en" />
+    <link rel="alternate" hreflang="th" href="https://urwaiter.net/?lang=th" />
+    <link rel="alternate" hreflang="my" href="https://urwaiter.net/?lang=my" />
     <link rel="alternate" hreflang="x-default" href="https://urwaiter.net" />
 
     <!-- Open Graph (Facebook / LINE) -->
@@ -40,6 +61,8 @@
     <meta property="og:url" content="https://urwaiter.net" />
     <meta property="og:site_name" content="Your Waiter" />
     <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="th_TH" />
+    <meta property="og:locale:alternate" content="my_MM" />
     <meta
       property="og:title"
       content="Your Waiter – Online Menu for Restaurants in Koh Tao"
@@ -92,17 +115,20 @@
             "@type": "Organization",
             "name": "Your Waiter",
             "url": "https://urwaiter.net",
-            "logo": "https://urwaiter.net/android-chrome-512x512.png"
+            "logo": "https://urwaiter.net/android-chrome-512x512.png",
+            "availableLanguage": ["en", "th", "my"]
           },
           {
             "@type": "WebSite",
             "name": "Your Waiter",
-            "url": "https://urwaiter.net"
+            "url": "https://urwaiter.net",
+            "inLanguage": ["en", "th", "my"]
           },
           {
             "@type": "Service",
             "name": "Your Waiter",
             "url": "https://urwaiter.net",
+            "inLanguage": ["en", "th", "my"],
             "areaServed": {
               "@type": "Place",
               "name": "Koh Tao, Thailand"
@@ -149,10 +175,20 @@
           background-position: left;
         }
       }
+
+      .seo-content {
+        position: absolute;
+        left: -9999px;
+      }
     </style>
   </head>
 
   <body>
+    <!-- Hidden SEO Content -->
+    <div class="seo-content">
+      <h1>Your Waiter – Online Menu</h1>
+      <p>Online menu solution for restaurants, bars, and cafes in Koh Tao.</p>
+    </div>
     <!-- Loading Screen -->
     <div id="loading_indicator" class="container">
       <div class="loader" aria-label="Loading"></div>
@@ -170,21 +206,7 @@
       });
     </script>
 
-    <script type="module">
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-analytics.js";
-
-      const firebaseConfig = {
-        apiKey: "AIzaSyBMSPg8u_KTJbqIRo5DgyZYPFGl56Tyvk4",
-        authDomain: "yourwaiter-3baed.firebaseapp.com",
-        projectId: "yourwaiter-3baed",
-        appId: "1:102300805677:web:74bd98cb255a2a5ddbe6a4",
-        measurementId: "G-EPXCVYWT0Y",
-      };
-
-      const app = initializeApp(firebaseConfig);
-      getAnalytics(app);
-    </script>
+    <script type="module" src="firebase-init.js"></script>
 
     <script src="flutter_bootstrap.js" async></script>
   </body>
