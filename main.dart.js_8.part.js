@@ -1846,7 +1846,7 @@ r=A.A_(a0,68,56,64)
 p=A.bg(16)
 o=A.b([new A.bs(0,C.R,A.a0(11,C.f.n()>>>16&255,C.f.n()>>>8&255,C.f.n()&255),C.dx,4)],x.V)
 n=B.VM(D.Z_,q,v)
-m=A.ab("Build: 25-02-2026 03:50am",j,j,j,j,A.bJ(j,j,w,j,j,j,j,j,j,j,j,u,j,j,C.by,j,j,!0,j,j,j,j,j,j,j,j),j,j)
+m=A.ab("Build: 25-02-2026 4:30am",j,j,j,j,A.bJ(j,j,w,j,j,j,j,j,j,j,j,u,j,j,C.by,j,j,!0,j,j,j,j,j,j,j,j),j,j)
 e.push(A.aP(j,A.qB(n,r,j,A.ab("Note: Synced restaurant settings refresh across switch and URL-open flows, and added support for both ?name=demo and ?demo route formats.",j,j,j,j,A.bJ(j,j,A.a0(157,w.n()>>>16&255,w.n()>>>8&255,w.n()&255),j,j,j,j,j,j,j,j,t,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j),j,m,A.c2(D.Zh,j,j,A.a0(135,w.n()>>>16&255,w.n()>>>8&255,w.n()&255),j,j,j,j,j,j,j,s,j,j)),C.l,j,j,new A.bh(d,j,j,p,o,j,C.N),j,j,C.dn,j,j,j,j))
 o=k.a
 e.push(o.atv(a0,D.Z3,q,"Theme Mode",d,new B.EY(new B.yh(D.a7q,a1.a,new B.aEJ(o,a0),A.bg(12),j,x.Z),j)))
@@ -2384,4 +2384,4 @@ D.aiw=new A.d9(16,null,null,null)
 D.apH=new A.bo(2,A.a4("bo<Q>"))
 D.apJ=new A.bo(C.h,A.a4("bo<h>"))
 D.at0=new B.aVc(0,"material")})()};
-(a=>{a["eWEYRyi2iIyRfuH97CZd63QMKbY="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["mHYB0Yoy8axOXAgnafF0LBk1UI8="]=a.current})($__dart_deferred_initializers__);
