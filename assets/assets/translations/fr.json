@@ -81,7 +81,7 @@
   "search_foods": "Chercher plats ou boissons...",
   "search_restaurant": "Chercher un restaurant...",
   "searchSomething": "Cherchez ce que vous voulez",
-  "set_item_design": "Chnage Design du menu",
+  "set_item_design": "Modifier le style",
   "settings": "Paramètres",
   "show_add_to_cart_button": "Bouton ajouter au panier",
   "show_description": "Afficher description",
@@ -110,5 +110,9 @@
   "splash_loading": "Chargement des plats et boissons frais...",
   "splash_preparing": "Préparation de votre table",
   "splash_today_menu": "Menu du jour",
-  "splash_version": "Version {} • {}"
+  "splash_version": "Version {} • {}",
+  "theme_mode": "Mode du thème",
+  "theme_mode_system": "Système",
+  "theme_mode_light": "Clair",
+  "theme_mode_dark": "Sombre"
 }

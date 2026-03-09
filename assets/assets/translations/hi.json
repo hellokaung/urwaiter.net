@@ -81,7 +81,7 @@
   "search_foods": "भोजन या पेय खोजें...",
   "search_restaurant": "रेस्तरां खोजें...",
   "searchSomething": "जो आप चाहते हैं उसे खोजें",
-  "set_item_design": "Chnage मेनू डिज़ाइन",
+  "set_item_design": "स्टाइल संशोधित करें",
   "settings": "सेटिंग्स",
   "show_add_to_cart_button": "कार्ट बटन दिखाएं",
   "show_description": "विवरण दिखाएं",
@@ -110,5 +110,9 @@
   "splash_loading": "ताज़े व्यंजन और पेय लोड हो रहे हैं...",
   "splash_preparing": "आपकी मेज़ तैयार की जा रही है",
   "splash_today_menu": "आज का मेनू",
-  "splash_version": "संस्करण {} • {}"
+  "splash_version": "संस्करण {} • {}",
+  "theme_mode": "थीम मोड",
+  "theme_mode_system": "सिस्टम",
+  "theme_mode_light": "लाइट",
+  "theme_mode_dark": "डार्क"
 }

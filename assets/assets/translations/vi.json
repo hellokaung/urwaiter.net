@@ -81,7 +81,7 @@
   "search_foods": "Tìm món ăn hoặc đồ uống...",
   "search_restaurant": "Tìm nhà hàng...",
   "searchSomething": "Tìm kiếm thứ bạn muốn",
-  "set_item_design": "Chnage Thiết kế menu",
+  "set_item_design": "Chỉnh sửa kiểu",
   "settings": "Cài đặt",
   "show_add_to_cart_button": "Hiện nút thêm vào giỏ",
   "show_description": "Hiện mô tả",
@@ -110,5 +110,9 @@
   "splash_loading": "Đang tải món ăn và đồ uống tươi...",
   "splash_preparing": "Đang chuẩn bị bàn của bạn",
   "splash_today_menu": "Thực đơn hôm nay",
-  "splash_version": "Phiên bản {} • {}"
+  "splash_version": "Phiên bản {} • {}",
+  "theme_mode": "Chế độ giao diện",
+  "theme_mode_system": "Theo hệ thống",
+  "theme_mode_light": "Sáng",
+  "theme_mode_dark": "Tối"
 }

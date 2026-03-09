@@ -81,7 +81,7 @@
   "search_foods": "Поиск еды или напитков...",
   "search_restaurant": "Поиск ресторана...",
   "searchSomething": "Найдите то, что хотите",
-  "set_item_design": "Chnage Дизайн меню",
+  "set_item_design": "Изменить стиль",
   "settings": "Настройки",
   "show_add_to_cart_button": "Кнопка добавления в корзину",
   "show_description": "Показывать описание",
@@ -110,5 +110,9 @@
   "splash_loading": "Загружаем свежие блюда и напитки...",
   "splash_preparing": "Готовим ваш стол",
   "splash_today_menu": "Меню на сегодня",
-  "splash_version": "Версия {} • {}"
+  "splash_version": "Версия {} • {}",
+  "theme_mode": "Режим темы",
+  "theme_mode_system": "Системный",
+  "theme_mode_light": "Светлый",
+  "theme_mode_dark": "Тёмный"
 }

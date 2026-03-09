@@ -81,7 +81,7 @@
   "search_foods": "料理や飲み物を検索...",
   "search_restaurant": "レストランを検索...",
   "searchSomething": "欲しいものを探す",
-  "set_item_design": "Chnage メニューデザイン",
+  "set_item_design": "スタイルを変更",
   "settings": "設定",
   "show_add_to_cart_button": "カートボタンを表示",
   "show_description": "説明を表示",
@@ -110,5 +110,9 @@
   "splash_loading": "新鮮な料理と飲み物を読み込み中...",
   "splash_preparing": "テーブルを準備しています",
   "splash_today_menu": "本日のメニュー",
-  "splash_version": "バージョン {} • {}"
+  "splash_version": "バージョン {} • {}",
+  "theme_mode": "テーマモード",
+  "theme_mode_system": "システム",
+  "theme_mode_light": "ライト",
+  "theme_mode_dark": "ダーク"
 }

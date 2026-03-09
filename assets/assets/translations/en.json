@@ -90,7 +90,7 @@
   "search_foods": "Search foods or drinks...",
   "search_restaurant": "Search Restaurant...",
   "searchSomething": "Search something what you want",
-  "set_item_design": "Chnage Menu Design",
+  "set_item_design": "Modify Style",
   "settings": "Settings",
   "show_add_to_cart_button": "Show Add to Cart Button",
   "show_description": "Show Description",
@@ -110,5 +110,9 @@
   "try_again": "Try Again",
   "use_app_back_button": "Use App Back Button Please",
   "your_cart": "Your Cart",
-  "your_cart_empty": "Your cart is empty"
+  "your_cart_empty": "Your cart is empty",
+  "theme_mode": "Theme Mode",
+  "theme_mode_system": "System",
+  "theme_mode_light": "Light",
+  "theme_mode_dark": "Dark"
 }

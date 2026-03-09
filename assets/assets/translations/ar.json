@@ -81,7 +81,7 @@
   "search_foods": "بحث عن طعام أو شراب...",
   "search_restaurant": "بحث عن مطعم...",
   "searchSomething": "ابحث عما تريد",
-  "set_item_design": "Chnage تصميم القائمة",
+  "set_item_design": "تعديل النمط",
   "settings": "الإعدادات",
   "show_add_to_cart_button": "إظهار زر الإضافة",
   "show_description": "إظهار الوصف",
@@ -110,5 +110,9 @@
   "splash_loading": "جارٍ تحميل الأطباق والمشروبات الطازجة...",
   "splash_preparing": "نجهّز طاولتك",
   "splash_today_menu": "قائمة اليوم",
-  "splash_version": "الإصدار {} • {}"
+  "splash_version": "الإصدار {} • {}",
+  "theme_mode": "وضع السمة",
+  "theme_mode_system": "النظام",
+  "theme_mode_light": "فاتح",
+  "theme_mode_dark": "داكن"
 }

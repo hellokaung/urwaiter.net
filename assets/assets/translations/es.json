@@ -81,7 +81,7 @@
   "search_foods": "Buscar comida o bebida...",
   "search_restaurant": "Buscar restaurante...",
   "searchSomething": "Busca lo que quieras",
-  "set_item_design": "Chnage Diseño de menú",
+  "set_item_design": "Modificar estilo",
   "settings": "Ajustes",
   "show_add_to_cart_button": "Mostrar botón de añadir",
   "show_description": "Mostrar descripción",
@@ -110,5 +110,9 @@
   "splash_loading": "Cargando platos y bebidas frescos...",
   "splash_preparing": "Preparando tu mesa",
   "splash_today_menu": "Menú de hoy",
-  "splash_version": "Versión {} • {}"
+  "splash_version": "Versión {} • {}",
+  "theme_mode": "Modo de tema",
+  "theme_mode_system": "Sistema",
+  "theme_mode_light": "Claro",
+  "theme_mode_dark": "Oscuro"
 }

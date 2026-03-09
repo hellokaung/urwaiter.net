@@ -81,7 +81,7 @@
   "search_foods": "အစားအစာ သို့မဟုတ် ဖျော်ရည် ရှာဖွေရန်...",
   "search_restaurant": "စားသောက်ဆိုင် ရှာဖွေရန်...",
   "searchSomething": "သင်လိုချင်တာကို ရှာဖွေပါ",
-  "set_item_design": "Chnage မီနူးဒီဇိုင်း",
+  "set_item_design": "စတိုင် ပြင်ဆင်မည်",
   "settings": "ဆက်တင်များ",
   "show_add_to_cart_button": "ဈေးဝယ်လှည်းခလုတ် ပြပါ",
   "show_description": "ဖော်ပြချက် ပြပါ",
@@ -111,5 +111,9 @@
   "splash_loading": "လတ်ဆတ်သောဟင်းလျာများနှင့် အချိုရည်များကို တင်နေသည်...",
   "splash_preparing": "သင့်စားပွဲကို ပြင်ဆင်နေပါသည်",
   "splash_today_menu": "ယနေ့၏ မီနူး",
-  "splash_version": "ဗားရှင်း {} • {}"
+  "splash_version": "ဗားရှင်း {} • {}",
+  "theme_mode": "အပြင်အဆင်မုဒ်",
+  "theme_mode_system": "စနစ်အတိုင်း",
+  "theme_mode_light": "အလင်း",
+  "theme_mode_dark": "အမှောင်"
 }

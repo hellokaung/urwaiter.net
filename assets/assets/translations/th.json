@@ -81,7 +81,7 @@
   "search_foods": "ค้นหาอาหารหรือเครื่องดื่ม...",
   "search_restaurant": "ค้นหาร้านอาหาร...",
   "searchSomething": "ค้นหาสิ่งที่คุณต้องการ",
-  "set_item_design": "Chnage รูปแบบเมนู",
+  "set_item_design": "ปรับสไตล์",
   "settings": "การตั้งค่า",
   "show_add_to_cart_button": "แสดงปุ่มเพิ่มลงรถเข็น",
   "show_description": "แสดงคำอธิบาย",
@@ -110,5 +110,9 @@
   "splash_loading": "กำลังโหลดอาหารและเครื่องดื่มสด...",
   "splash_preparing": "กำลังเตรียมโต๊ะของคุณ",
   "splash_today_menu": "เมนูวันนี้",
-  "splash_version": "เวอร์ชัน {} • {}"
+  "splash_version": "เวอร์ชัน {} • {}",
+  "theme_mode": "โหมดธีม",
+  "theme_mode_system": "ตามระบบ",
+  "theme_mode_light": "สว่าง",
+  "theme_mode_dark": "มืด"
 }

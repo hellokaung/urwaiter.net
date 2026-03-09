@@ -81,7 +81,7 @@
   "search_foods": "음식 또는 음료 검색...",
   "search_restaurant": "식당 검색...",
   "searchSomething": "원하는 것을 검색하세요",
-  "set_item_design": "Chnage 메뉴 디자인",
+  "set_item_design": "스타일 수정",
   "settings": "설정",
   "show_add_to_cart_button": "장바구니 버튼 표시",
   "show_description": "설명 표시",
@@ -110,5 +110,9 @@
   "splash_loading": "신선한 요리와 음료를 불러오는 중...",
   "splash_preparing": "테이블을 준비 중입니다",
   "splash_today_menu": "오늘의 메뉴",
-  "splash_version": "버전 {} • {}"
+  "splash_version": "버전 {} • {}",
+  "theme_mode": "테마 모드",
+  "theme_mode_system": "시스템",
+  "theme_mode_light": "라이트",
+  "theme_mode_dark": "다크"
 }

@@ -81,7 +81,7 @@
   "search_foods": "搜索食物或饮料...",
   "search_restaurant": "搜索餐厅...",
   "searchSomething": "搜索您想要的内容",
-  "set_item_design": "Chnage 菜单设计",
+  "set_item_design": "修改样式",
   "settings": "设置",
   "show_add_to_cart_button": "显示加入购物车按钮",
   "show_description": "显示描述",
@@ -110,5 +110,9 @@
   "splash_loading": "正在加载新鲜菜品和饮品...",
   "splash_preparing": "正在准备您的餐桌",
   "splash_today_menu": "今日菜单",
-  "splash_version": "版本 {} • {}"
+  "splash_version": "版本 {} • {}",
+  "theme_mode": "主题模式",
+  "theme_mode_system": "跟随系统",
+  "theme_mode_light": "浅色",
+  "theme_mode_dark": "深色"
 }

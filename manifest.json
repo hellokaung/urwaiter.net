@@ -56,5 +56,37 @@
       "form_factor": "wide",
       "label": "Your Waiter online menu preview"
     }
-  ]
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse Menus",
+      "short_name": "Menus",
+      "description": "Open the menu browser.",
+      "url": "/"
+    },
+    {
+      "name": "demo",
+      "short_name": "demo",
+      "description": "Get in touch with Your Waiter.",
+      "url": "/#/?name=demo"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+yourwaiter",
+      "url": "/?open=%s"
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
 }

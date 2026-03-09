@@ -81,7 +81,7 @@
   "search_foods": "חפש אוכל או משקאות...",
   "search_restaurant": "חפש מסעדה...",
   "searchSomething": "חפש את מה שתרצה",
-  "set_item_design": "Chnage עיצוב תפריט",
+  "set_item_design": "שינוי סגנון",
   "settings": "הגדרות",
   "show_add_to_cart_button": "הצג כפתור הוספה לסל",
   "show_description": "הצג תיאור",
@@ -110,5 +110,9 @@
   "splash_loading": "טוענים מנות ומשקאות טריים...",
   "splash_preparing": "מכינים את השולחן שלך",
   "splash_today_menu": "תפריט היום",
-  "splash_version": "גרסה {} • {}"
+  "splash_version": "גרסה {} • {}",
+  "theme_mode": "מצב ערכת נושא",
+  "theme_mode_system": "מערכת",
+  "theme_mode_light": "בהיר",
+  "theme_mode_dark": "כהה"
 }
