@@ -119670,7 +119670,7 @@ if(s==null){throw"DeferredLoading state error: code with hash '"+a+"' was not lo
 v.deferredInitialized[a]=true},
 deferredLibraryParts:{cart_page:[0,1,2,3],food_detail_page:[0,1,4,2,5],search_page:[1,4,6],setting_page:[0,7],"cart_page.1":[0,1,2,3],"search_page.1":[1,4,6],"setting_page.1":[0,7]},
 deferredPartUris:["main.dart.js_6.part.js","main.dart.js_3.part.js","main.dart.js_5.part.js","main.dart.js_4.part.js","main.dart.js_2.part.js","main.dart.js_8.part.js","main.dart.js_1.part.js","main.dart.js_7.part.js"],
-deferredPartHashes:["BXpQ9uMO+oLTtbcQjcw9EScPCmQ=","SLWJoKhj42hUzHrVC3+7Ymu2Fdg=","fji71VDpqoymWwKj2xJjrxjM8sw=","MeDSKmiWtf8wcdm5mMAWxaU1sQk=","baOU9tQBDmx+oT8C/V6zwdSpGTg=","mNrJjrCjhk0KE+g+/MK02mwaDnc=","iKYXUhL8DJRnK0d+BTkHttAtnWQ=","H2mSOB8SjWUZNdCgtgMiwUx5KX8="],
+deferredPartHashes:["BXpQ9uMO+oLTtbcQjcw9EScPCmQ=","SLWJoKhj42hUzHrVC3+7Ymu2Fdg=","fji71VDpqoymWwKj2xJjrxjM8sw=","MeDSKmiWtf8wcdm5mMAWxaU1sQk=","baOU9tQBDmx+oT8C/V6zwdSpGTg=","mNrJjrCjhk0KE+g+/MK02mwaDnc=","iKYXUhL8DJRnK0d+BTkHttAtnWQ=","H7XuAomHidonzYRLoeN8Y2uXuds="],
 typeUniverse:{eC:new Map(),tR:{},eT:{},tPV:{},sEA:[]},
 mangledGlobalNames:{w:"int",R:"double",cR:"num",i:"String",I:"bool",b5:"Null",L:"List",x:"Object",an:"Map",a1:"JSObject"},
 mangledNames:{},
